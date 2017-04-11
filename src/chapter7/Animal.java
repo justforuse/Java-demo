@@ -20,6 +20,7 @@ class Dog extends Animal{
 
     String food = "dog food";
     void eat(){
+        super.eat();
         System.out.println("Dog is eating...");
     }
 }
@@ -29,6 +30,8 @@ class AnimalTestDrive{
         Dog dog = new Dog();
         dog.eat();
         dog.makeNoise();
+        Animal dog2 = new Dog();
+        dog2.eat();
         System.out.println(dog.food);
     }
 }

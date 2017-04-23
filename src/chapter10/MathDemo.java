@@ -6,12 +6,15 @@ import java.util.ArrayList;
  * Created by Administrator on 2017/4/15.
  */
 public class MathDemo {
-	int a  = Math.abs(123);
-	long b = Math.round(24.2);
-	float x = Math.min(1.1f,2.2f);
-//	ArrayList<int> a = new ArrayList<int>();
 
 
+	public static void	main(String[] args){
+		int a  = Math.abs(123);
+		long b = Math.round(24.2);
+		float x = Math.min(1.1f,2.2f);
+		//ArrayList<int> a = new ArrayList<int>();
+		System.out.println(a);
+	}
 
 }
 
